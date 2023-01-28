@@ -2,9 +2,16 @@ package com.leetcode.solutions.n50;
 
 import java.util.HashMap;
 
+/**
+ * 1. Two Sum
+ * <a href="https://leetcode.com/problems/two-sum/">...</a>
+ *
+ * @author Prakash, Kumar
+ * @category Arrays, TwoSum
+ */
 public class LeetCode0001 {
 
-    public static int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
 
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
