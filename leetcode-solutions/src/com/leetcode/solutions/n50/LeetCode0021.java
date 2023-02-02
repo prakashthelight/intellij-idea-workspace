@@ -2,6 +2,13 @@ package com.leetcode.solutions.n50;
 
 import com.leetcode.models.ListNode;
 
+/**
+ * 21. Merge Two Sorted Lists
+ * <a href="https://leetcode.com/problems/merge-two-sorted-lists">...</a>
+ *
+ * @author Prakash, Kumar
+ * @category LinkedList, Recursion
+ */
 public class LeetCode0021 {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         if (list1 == null && list2 == null) {

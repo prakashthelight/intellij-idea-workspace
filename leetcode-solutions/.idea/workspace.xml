@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92bd145-529b-4b27-a755-6e885a31776b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/models/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/solutions/n50/LeetCode0021.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/com/leetcode/solutions/n50/LeetCode0021Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/solutions/n50/LeetCode0020.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/com/leetcode/solutions/n50/LeetCode0020Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/solutions/n50/LeetCode0021.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/solutions/n50/LeetCode0021.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,22 +72,7 @@
       <recent name="com.leetcode.solutions.n50" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LeetCode0021Test.test2">
-    <configuration name="LeetCode0014Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-solutions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.solutions.n50.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.solutions.n50" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.n50.LeetCode0014Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LeetCode0020Test">
     <configuration name="LeetCode0014Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <extension name="coverage">
@@ -100,6 +85,21 @@
       <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.n50.LeetCode0014Test" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode0020Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.solutions.n50.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.solutions.n50" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.n50.LeetCode0020Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeetCode0020Test" />
         <item itemvalue="JUnit.LeetCode0021Test.test2" />
         <item itemvalue="JUnit.LeetCode0021Test.test1" />
         <item itemvalue="JUnit.LeetCode0021Test" />
         <item itemvalue="JUnit.LeetCode0014Test.test2" />
-        <item itemvalue="JUnit.LeetCode0014Test" />
       </list>
     </recent_temporary>
   </component>
