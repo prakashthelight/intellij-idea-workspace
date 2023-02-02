@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92bd145-529b-4b27-a755-6e885a31776b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/solutions/n50/LeetCode0014.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/com/leetcode/solutions/n50/LeetCode0014Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,8 +72,8 @@
       <recent name="com.leetcode.solutions.n50" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LeetCode0013Test">
-    <configuration name="LeetCode0001Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LeetCode0014Test.test2">
+    <configuration name="LeetCode0009Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +82,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.solutions.n50" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.n50.LeetCode0001Test" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.n50.LeetCode0009Test" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode0009Test.isPalindromeTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.solutions.n50.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leetcode.solutions.n50" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.n50.LeetCode0009Test" />
+      <option name="METHOD_NAME" value="isPalindromeTest3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode0013Test.romanToInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeetCode0014Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
@@ -109,14 +128,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.solutions.n50" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.n50.LeetCode0013Test" />
-      <option name="METHOD_NAME" value="romanToInt" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.n50.LeetCode0014Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode0013Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeetCode0014Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode-solutions" />
       <extension name="coverage">
         <pattern>
@@ -125,24 +143,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.solutions.n50" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.n50.LeetCode0013Test" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.n50.LeetCode0014Test" />
       <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode0013Test.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode-solutions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.solutions.n50.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.solutions.n50" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.solutions.n50.LeetCode0013Test" />
-      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeetCode0014Test.test2" />
+        <item itemvalue="JUnit.LeetCode0014Test" />
+        <item itemvalue="JUnit.LeetCode0009Test.isPalindromeTest3" />
+        <item itemvalue="JUnit.LeetCode0009Test" />
         <item itemvalue="JUnit.LeetCode0013Test" />
-        <item itemvalue="JUnit.LeetCode0013Test.test2" />
-        <item itemvalue="JUnit.LeetCode0013Test.test3" />
-        <item itemvalue="JUnit.LeetCode0001Test" />
-        <item itemvalue="JUnit.LeetCode0013Test.romanToInt" />
       </list>
     </recent_temporary>
   </component>
