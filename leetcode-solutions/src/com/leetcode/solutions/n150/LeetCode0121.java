@@ -1,5 +1,12 @@
 package com.leetcode.solutions.n150;
 
+/**
+ * 121. Best Time to Buy and Sell Stock
+ * <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock">...</a>
+ *
+ * @author Prakash, Kumar
+ * @category Array, Dynamic Programming
+ */
 public class LeetCode0121 {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length < 2) {
