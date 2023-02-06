@@ -1,10 +1,10 @@
 # ignored files
-leetcode-solutions/lib/
-leetcode-solutions/out/
-leetcode-solutions/.idea/workspace.xml
+**/lib/
+**/out/
 
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
+
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/**/usage.statistics.xml
+**/.idea/**/dictionaries
+**/.idea/**/shelf
