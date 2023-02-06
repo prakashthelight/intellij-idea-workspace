@@ -20,14 +20,9 @@ public class LeetCode0020 {
             if (openBraces.indexOf(ch) != -1) {
                 stack.push(ch);
             } else if (closedBraces.indexOf(ch) != -1) {
-                if (stack.isEmpty()) {
+                // there is no matching open brace available to pop
+                if (stack.isEmpty() || closedBraces.indexOf(ch) != openBraces.indexOf(stack.pop())) {
                     return false;
-                }
-
-                if (closedBraces.indexOf(ch) != openBraces.indexOf(stack.peek())) {
-                    return false;
-                } else {
-                    stack.pop();
                 }
             }
         }

@@ -8,21 +8,20 @@ class LeetCode0020Test {
     LeetCode0020 code = new LeetCode0020();
 
     @Test
-    void test1() {
+    void isValidTest1() {
         String input = "()";
         Assertions.assertTrue(code.isValid(input));
     }
 
     @Test
-    void test2() {
+    void isValidTest2() {
         String input = "()[]{}";
         Assertions.assertTrue(code.isValid(input));
     }
 
     @Test
-    void test3() {
+    void isValidTest3() {
         String input = "(])";
         Assertions.assertFalse(code.isValid(input));
     }
-
 }
