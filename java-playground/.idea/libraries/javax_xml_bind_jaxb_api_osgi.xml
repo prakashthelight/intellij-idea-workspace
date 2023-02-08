@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="javax.xml.bind.jaxb.api.osgi" type="repository">
+    <properties maven-id="javax.xml.bind:jaxb-api-osgi:2.2.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api-osgi/2.2.1/jaxb-api-osgi-2.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
