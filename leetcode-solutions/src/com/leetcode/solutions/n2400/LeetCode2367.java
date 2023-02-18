@@ -2,6 +2,13 @@ package com.leetcode.solutions.n2400;
 
 import java.util.HashSet;
 
+/**
+ * 2367. Number of Arithmetic Triplets
+ * <a href="https://leetcode.com/problems/number-of-arithmetic-triplets/">...</a>
+ *
+ * @author Prakash, Kumar
+ * @category Array, Hash Table, Two Pointers, Enumeration
+ */
 public class LeetCode2367 {
     public int arithmeticTriplets(int[] nums, int diff) {
         HashSet<Integer> set = new HashSet<Integer>();

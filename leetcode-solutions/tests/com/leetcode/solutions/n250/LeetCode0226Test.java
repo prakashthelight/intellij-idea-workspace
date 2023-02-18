@@ -13,5 +13,5 @@ class LeetCode0226Test {
         Assertions.assertNotNull(code.invertTree(root));
     }
 
-    // TODO: 2/17/2023 - Add more tests 
+    // TODO: 2/17/2023 - Add more tests
 }
