@@ -32,4 +32,20 @@ public class TreeUtils {
 
         return result;
     }
+
+    public static TreeNode createBinaryTree(Integer[] nodeValues) {
+        return createBinaryTree(nodeValues, 0);
+    }
+
+    public static TreeNode createBinaryTree(Integer[] nodeValues, int rootNodeIndex) {
+        if (rootNodeIndex >= nodeValues.length || nodeValues[rootNodeIndex] == null) {
+            return null;
+        }
+
+        TreeNode root = new TreeNode(nodeValues[rootNodeIndex]);
+        root.left = createBinaryTree(nodeValues, 2 * rootNodeIndex + 1);
+        root.right = createBinaryTree(nodeValues, 2 * rootNodeIndex + 2);
+
+        return root;
+    }
 }
