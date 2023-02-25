@@ -8,7 +8,9 @@ public class ListUtils {
     public static List<List<Integer>> createListOfLists(Integer[]... arrays) {
         List<List<Integer>> lists = new ArrayList<>();
         for (Integer[] array : arrays) {
-            lists.add(Arrays.stream(array).toList());
+            List<Integer> list = new ArrayList<>();
+            list.addAll(Arrays.asList(array));
+            lists.add(list);
         }
 
         return lists;
