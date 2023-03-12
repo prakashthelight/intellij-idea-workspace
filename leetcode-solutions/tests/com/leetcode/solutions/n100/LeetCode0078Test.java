@@ -30,6 +30,6 @@ class LeetCode0078Test {
         List<List<Integer>> actualResult = code.subsets(nums);
         Assertions.assertEquals(expectedResult.size(), actualResult.size());
 
-        // TODO: 3/12/2023 - Add more Assertions 
+        // TODO: 3/12/2023 - Add more Assertions
     }
 }
