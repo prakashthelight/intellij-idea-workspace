@@ -7,7 +7,7 @@ import java.util.HashMap;
  * <a href="https://leetcode.com/problems/two-sum/">...</a>
  *
  * @author Prakash, Kumar
- * @category Arrays, TwoSum
+ * @category Array, TwoSum
  */
 public class LeetCode0001 {
 
