@@ -2,6 +2,13 @@ package com.leetcode.solutions.n1500;
 
 import java.util.List;
 
+/**
+ * 1507. Reformat Date
+ * <a href="https://leetcode.com/problems/reformat-date/">...</a>
+ *
+ * @author Prakash, Kumar
+ * @category String
+ */
 public class LeetCode1507 {
     List<String> months = List.of("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
 
